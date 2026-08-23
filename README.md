@@ -1,50 +1,40 @@
 # Stanislav Borodai
 
-### Python Automation Developer | Trading Systems
+### Python Automation Developer · Trading Systems
 
-I build rule-based automation systems with a focus on trading infrastructure, webhook processing, execution logic and risk management.
+I build rule-based automation and integration systems with a focus on webhook processing, execution workflows, risk management and reliability.
 
-My main project is an end-to-end trading automation system that connects TradingView signals with Python-based processing and MetaTrader 5 execution.
+My main engineering case study grew from a real need to automate a deterministic trading process: TradingView generates signals, a Python/Flask layer validates and routes them, and execution services manage account-specific risk before broker-side execution.
 
-## Featured Project
+## Featured project
 
 ### Trading Automation System
 
-A rule-based trading execution architecture designed to automate the complete signal-to-execution workflow.
+`TradingView → Webhook → Validation → Routing → Risk & Execution → MetaTrader 5`
 
-**Architecture:**
+The public portfolio implementation demonstrates:
 
-`TradingView → Webhook → Validation → Python / Flask Router → Execution Service → MetaTrader 5`
-
-The system includes:
-
-- TradingView webhook processing
+- Python/Flask webhook processing
 - signal validation and normalization
-- multi-account signal routing
-- account-specific risk management
-- automated position sizing
-- broker-side trade execution
-- automated exit and break-even logic
-- execution logging and operational recovery
-- automated tests with GitHub Actions
+- multi-account routing and centralized configuration
+- percentage-based position sizing
+- per-account execution fault isolation
+- structured application logging
+- health checks
+- automated tests and GitHub Actions CI
 
-[View the Trading Automation System repository](https://github.com/AgentTrade/trading-automation-system)
+[Explore the repository →](https://github.com/AgentTrade/trading-automation-system)
 
-## Tech Stack
+## Engineering focus
 
-**Python** · **Flask** · **REST APIs** · **Webhooks** · **Pine Script** · **TradingView** · **MetaTrader 5** · **GitHub Actions**
+**Python Automation · Backend Integrations · APIs & Webhooks · Event-Driven Systems · Trading Infrastructure · Reliability & Testing**
 
-## Engineering Focus
+## Tech
 
-I am particularly interested in:
+**Python · Flask · REST APIs · Webhooks · pytest · GitHub Actions · Pine Script · TradingView · MetaTrader 5**
 
-- Python automation
-- backend and integration development
-- API and webhook architectures
-- event-driven systems
-- trading infrastructure
-- execution and risk-management systems
+## How I work
 
-## Current Focus
+I use AI-assisted development as an engineering tool while retaining responsibility for system design, requirement decomposition, testing, debugging and validation against real-world behavior.
 
-I am continuing to develop my Python engineering skills through practical automation projects, with an emphasis on building reliable systems around real-world workflows.
+I am currently expanding this portfolio around practical Python automation and backend integration problems.
